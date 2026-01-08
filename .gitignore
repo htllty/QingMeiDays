@@ -1,0 +1,38 @@
+# --- IDE 配置文件 ---
+
+.idea/
+*.iml
+.gradle/
+.DS_Store
+
+# 细化 IDEA 配置排除（双重保险）
+
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# --- 编译生成文件 ---
+
+/build
+/*/build
+/captures
+.externalNativeBuild
+.cxx
+
+# --- 个人与本地环境配置 ---
+
+local.properties
+/local.properties
+
+# --- 签名与敏感文件 (极其重要) ---
+
+*.jks
+*.keystore
+
+# --- 临时与日志文件 ---
+
+.temp/
+.log

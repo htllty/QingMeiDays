@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QingMeiDays" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#00BCD4</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>
