@@ -1,0 +1,11 @@
+# 是否允许用户创建空白 Issue（建议设为 false，强制使用模板）
+blank_issues_enabled: false
+
+# 在选择页面下方增加自定义联系链接
+contact_links:
+  - name: 💬 社区讨论 (Discussions)
+    url: https://github.com/htllty/QingMeiDays/discussions
+    about: 如果你只是想闲聊或寻求非技术性帮助，请前往讨论区。
+  - name: 📧 联系作者
+    url: mailto:your-email@example.com
+    about: 仅限紧急私密事务。
